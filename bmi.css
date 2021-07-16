@@ -1,0 +1,65 @@
+*{
+    margin:0cm;
+    padding:0cm;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to bottom right, #07188D, rgba(255, 9, 9, 0.822));
+}
+
+.item{
+    height:70%;
+    width: 30%;
+    padding: 2rem;
+    background-color: snow;
+    border: 1px solid rebeccapurple;
+}
+h1.heading{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+h2.name{
+    text-align: left;
+    font-family: 'Arimo', sans-serif;
+}
+p.paramet{
+    margin-bottom: 1rem;
+    text-align: left;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+input{
+    width:100%;
+    height:2.6rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid rebeccapurple;
+    font-size: 1.7rem;
+    padding: 0.8em;
+}
+.bttn{
+    display: grid;
+    place-items: center;
+}
+button{
+    background:linear-gradient(to bottom right,rgba(255, 25, 25, 0.664), #07198db9 );
+    height:1cm;
+    width:7cm;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 2rem;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+.btn1{
+    margin-top:1rem;
+}
